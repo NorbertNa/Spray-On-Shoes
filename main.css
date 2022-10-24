@@ -1,0 +1,33 @@
+html{
+    background-color: black;
+}
+.header-div{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.asp1{
+    padding: 1rem auto;
+    text-align: center;
+    height: auto;
+    width: max-content;
+    background-color: black;
+    color: lightgoldenrodyellow;
+    transition: .5s;
+}
+.asp1:hover{
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+.header-logo{
+    flex-grow: 3;
+}
+.header-inicio{
+    flex-grow: 1;
+}
+.header-redes{
+    flex-grow: 1;
+}
